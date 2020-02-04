@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <title>Coding for django try</title>
+</head>
+  <body>
+    <h1> This is navbar </h1>
+
+    {% include 'navbar.html' %}
+    
+    {%block content %}
+    replace me
+    {% endblock %}
+
+    <h1>Hello World</h1>
+    {{request.user}}
+    <h2>HTML Buttons</h2>
+    <p>HTML buttons are defined with the button tag:</p>
+    <button>Click me</button>
+  </body>
+</html>
